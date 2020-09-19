@@ -1,4 +1,4 @@
-package java_Classes.day2_printing_comments;
+package java_Classes.week_1.day2_printing_comments;
 
 public class Task4_escapeSequence {
 

@@ -1,4 +1,4 @@
-package java_Classes.day3_variables_dataTypes;
+package java_Classes.week_1.day3_variables_dataTypes;
 
 public class CreatingVariables {
 
