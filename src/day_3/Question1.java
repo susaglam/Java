@@ -12,5 +12,6 @@ public class Question1 {
 		number1 = 14;
 
 		System.out.println(number1);
+		
 	}
 }
