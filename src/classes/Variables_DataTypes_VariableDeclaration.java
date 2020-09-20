@@ -1,6 +1,6 @@
-package java_Classes.week_1.day3_variables_dataTypes;
+package classes;
 
-public class VariableDeclaration {
+public class Variables_DataTypes_VariableDeclaration {
 
 	public static void main(String[] args) {
 		

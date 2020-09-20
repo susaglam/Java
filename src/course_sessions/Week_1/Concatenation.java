@@ -1,4 +1,4 @@
-package Java_Sessions.Week_1;
+package course_sessions.Week_1;
 
 public class Concatenation {
 

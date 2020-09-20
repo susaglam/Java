@@ -1,6 +1,6 @@
-package java_Classes.week_1.day2_printing_comments;
+package classes;
 
-public class Task1_triangle {
+public class Printing_Comments_triangle {
 
 	public static void main(String[] args) {
 		

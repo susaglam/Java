@@ -1,6 +1,6 @@
-package java_Classes.week_1.day3_variables_dataTypes;
+package classes;
 
-public class CreatingVariables {
+public class Variables_DataTypes_CreatingVariables {
 
 	public static void main(String[] args) {
 		

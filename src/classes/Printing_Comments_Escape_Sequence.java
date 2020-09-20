@@ -1,6 +1,6 @@
-package java_Classes.week_1.day2_printing_comments;
+package classes;
 
-public class Task4_escapeSequence {
+public class Printing_Comments_Escape_Sequence {
 
 	public static void main(String[] args) {
 		

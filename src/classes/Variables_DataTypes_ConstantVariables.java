@@ -1,6 +1,6 @@
-package java_Classes.week_1.day3_variables_dataTypes;
+package classes;
 
-public class ConstantVariables {
+public class Variables_DataTypes_ConstantVariables {
 
 	public static void main(String[] args) {
 		
