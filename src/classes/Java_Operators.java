@@ -5,6 +5,17 @@ public class Java_Operators {
 
 		// Create an int variable and increase it by using addition then multiplication;
 		// and decrease it by using subtraction and division
+
+		/*
+		 * Operator  Name 			Description 							Example 
+		 * 	 + 		Addition 		Adds together two values				x + y 
+		 *   - 		Subtraction 	Subtracts one value from another 		x - y 
+		 * 	 *		Multiplication	Multiplies two values 					x * y 
+		 * 	 / 		Division 		Divides one value by another 			x / y 
+		 * 	 %		Modulus 		Returns the division remainder 			x % y 
+		 * 	++ 		Increment 		Increases the value of a variable by 1 	 ++x 
+		 * 	-- 		Decrement 		Decreases the value of a variable by 1	 --x
+		 */
 		int a = 12;
 		a = a + 3;// a=15
 		System.out.println(a);
@@ -18,8 +29,8 @@ public class Java_Operators {
 		// When you use multiple operations in one line, you should be careful about
 		// order of operations
 		/*
-		 * 1)Do the operations in parenthesis 
-		 * 2)Do * and / operations 3)Do + and - operations
+		 * 1)Do the operations in parenthesis 2)Do * and / operations 3)Do + and -
+		 * operations
 		 */
 		int b = 12;
 		b = b + 3 * 2 - 5 / 5;

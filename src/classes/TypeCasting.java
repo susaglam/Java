@@ -3,18 +3,30 @@ package classes;
 public class TypeCasting {
 	public static void main(String[] args) {
 
+		/*
+		 * Type casting is when you assign a value of one primitive data type to another type.
+		 * 
+		 * In Java, there are two types of casting:
+		 * 
+		 * Widening Casting (automatically) - converting a smaller type to a larger type size 
+		 * byte -> short -> char -> int -> long -> float -> double
+		 * 
+		 * Narrowing Casting (manually) - converting a larger type to a smaller size type 
+		 * double -> float -> long -> int -> char -> short -> byte
+		 */
+
 		// byte < short < int < long < float < double
 
-		// 1.Auto Widening: If you convert small data type
-		// to large ones there is nothing to do. Java will
-		// convert automatically.
+		/* 1.Auto Widening:
+		 * If you convert small data type to large ones there is nothing to do. Java will convert automatically.
+		 */
 		byte num01 = 12;
 		short num02 = num01;
 
-		// 2.Explicit Narrowing: If you convert large data types
-		// to small ones, its name is Explicit Narrowing. Java
-		// does not do it. You have to do it manually by typing
-		// small data type inside the parenthesis.
+		/* 2.Explicit Narrowing: 
+		 * If you convert large data types  to small ones, its name is Explicit Narrowing. 
+		 * Java does not do it. You have to do it manually by typing small data type inside the parenthesis.
+		*/ 
 		int num03 = 14;
 		byte num04 = (byte) num03;
 
