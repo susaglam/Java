@@ -1,7 +1,5 @@
 package classes;
 
-import sun.applet.Main;
-
 public class Variables_DataTypes_ConstantVariables {
 
 	public static void main(String[] args) {

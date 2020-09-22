@@ -1,7 +1,7 @@
 package classes;
 
 public class TypeCasting {
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 
 		/*
 		 * Type casting is when you assign a value of one primitive data type to another type.
@@ -20,31 +20,31 @@ public class TypeCasting {
 		/* 1.Auto Widening:
 		 * If you convert small data type to large ones there is nothing to do. Java will convert automatically.
 		 */
-		byte num01 = 12;
-		short num02 = num01;
+		final byte num01 = 12;
+		final short num02 = num01;
 
 		/* 2.Explicit Narrowing: 
 		 * If you convert large data types  to small ones, its name is Explicit Narrowing. 
 		 * Java does not do it. You have to do it manually by typing small data type inside the parenthesis.
 		*/ 
-		int num03 = 14;
-		byte num04 = (byte) num03;
+		final int num03 = 14;
+		final byte num04 = (byte) num03;
 
 		// 1)Convert int to double. Auto Widening
-		int num05 = 19;
-		double num06 = num05;
+		final int num05 = 19;
+		final double num06 = num05;
 
 		// 2)Convert float to double. Auto Widening
-		float num07 = 13.5f;
-		double num08 = num07;
+		final float num07 = 13.5f;
+		final double num08 = num07;
 
 		// 3)Convert double to short. Explicit Narrowing
-		double num09 = 13.3;
-		short num10 = (short) num09;
+		final double num09 = 13.3;
+		final short num10 = (short) num09;
 
 		// 4)Convert int to short. Explicit Narrowing
-		int num11 = 25;
-		short num12 = (short) num11;
+		final int num11 = 25;
+		final short num12 = (short) num11;
 
 		// In how many different ways, I can fix the following error?
 		// float num13 = 3.23; //float num13 = 3.23f;
@@ -52,8 +52,8 @@ public class TypeCasting {
 		// double num13 = 3.23;
 
 		// What do you see on the console?
-		int a = 5;
-		int b = 3;
+		final int a = 5;
+		final int b = 3;
 		// If you divide int by int the result always will be integer.
 		// Java cancels the decimal part and returns the whole part.
 		// Java does not make round operation
@@ -61,8 +61,8 @@ public class TypeCasting {
 		System.out.println(a / b);
 
 		// What do you see on the console?
-		int c = 5;
-		double d = 3;
+		final int c = 5;
+		final double d = 3;
 		// If the data types are different the result will be in the large data type
 		System.out.println(c / d);// 1,666...
 
