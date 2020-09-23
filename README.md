@@ -1,4 +1,4 @@
-<img src="https://avatars1.githubusercontent.com/u/33201481?s=400&u=465b088c579147f19b913c3cd4b05c783e5932dc&v=4" align="right" style="height: 64px"/>
+<img src="https://github.com/susaglam/Java/blob/master/java.png" align="right" style="height: 64px"/>
 
 # Java Learning
 
