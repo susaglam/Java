@@ -25,8 +25,9 @@ public class Switch_Statement {
 		if (username.equals(adminuser)) {
 
 			if (pass.equals(adminpass)) {
-				System.out.print("\033[H\033[2J");
-				System.out.flush();
+
+				
+				System.out.print("\u001B[2J");
 				System.out.println("Welcome Admin Dashboard ");
 
 				System.out.println("+--------------------+");
