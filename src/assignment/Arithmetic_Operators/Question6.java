@@ -21,6 +21,9 @@ public class Question6 {
 		 * 
 		 * Number of milligrams in drink: 500 It would take about 20 drinks for a lethal
 		 * overdose
+		 * 
+		 * 
+		 * Real : 1 coffe approx 240 ml caffein -source https://www.compoundchem.com/2014/07/27/lethaldoses/
 		 */
 
 		int drinks;
