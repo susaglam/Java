@@ -1,4 +1,4 @@
-package Assignment3_Arithmetic_Operators;
+package assignment.Arithmetic_Operators;
 
 public class Question6 {
 	public static void main(String[] args) {
@@ -17,6 +17,9 @@ public class Question6 {
 		 * Number of milligrams in drink: 500 It would take about 20 drinks for a lethal
 		 * overdose
 		 */
+		
+		
+		
 
 		System.out.println("Number of milligrams in drink: 500 It would take about 20 drinks for a lethal overdose");
 	}

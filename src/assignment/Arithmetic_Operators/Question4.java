@@ -1,4 +1,4 @@
-package Assignment3_Arithmetic_Operators;
+package assignment.Arithmetic_Operators;
 
 public class Question4 {
 	public static void main(String[] args) {
