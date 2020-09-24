@@ -113,8 +113,7 @@ public static void main(String[] args) {
 		
 		     1)Stack is small, Heap is Huge
 		     2)Stack can store a)Primitive data types b)Address(Reference) of the non-primitive data types
-		       Heap can store just non-primitive data types     
-                                                                      
+		       Heap can store just non-primitive data types          
 		*/
 		
 		System.out.println("Java is easy");

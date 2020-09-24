@@ -77,7 +77,6 @@ public class Variables_DataTypes_PrimitiveVariables {
 		System.out.println("My name is " + name);
 
 		String age = "12";
-
 	}
 
 }

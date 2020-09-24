@@ -11,6 +11,5 @@ public class Variables_DataTypes_ConstantVariables {
 		final double pi = 3.14;
 		final String birthday = "09\09\1978";
 		final int capacity = 50;
-
 	}
 }

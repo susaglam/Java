@@ -25,14 +25,6 @@ public class Variables_DataTypes_CreatingVariables {
 		int num;String value;
 		num=6;
 		System.out.println(num);
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 
