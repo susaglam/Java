@@ -2,8 +2,6 @@ package assignment.Arithmetic_Operators;
 
 import java.util.Scanner;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
-import com.sun.xml.internal.ws.api.pipe.NextAction;
 
 public class Question6 {
 	public static void main(String[] args) {
