@@ -24,7 +24,7 @@ public class Question7 {
 
 		exchange = 100 - 95;
 
-		System.out.println("Amout in Return:" + exchange + "cents");
+		System.out.println("Amount in Return:" + exchange + "cents");
 
 		quarters = exchange / 25;// 25 cent
 		exchange = exchange % 25;
