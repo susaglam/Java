@@ -2,7 +2,7 @@ package assignment.Arithmetic_Operators;
 
 import java.util.Scanner;
 
-public class Question7 {
+public class Question7_secondExm {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
@@ -20,9 +20,13 @@ public class Question7 {
 		 * Your change is 0 quarters, 0 dimes, and 1 nickles
 		 */
 
-		int  quarters, dimes, nickels, exchange;
+		Scanner input = new Scanner(System.in);
+		int amount, quarters, dimes, nickels, pennies, exchange;
 
-		exchange = 100 - 95;
+		System.out.print("Please Enter the price of the(from 25 cents to a dollar, in 5-cent increments): ");
+		amount = input.nextInt();
+
+		exchange = 100 - amount;
 
 		System.out.println("Amout in Return:" + exchange + "cents");
 
@@ -35,7 +39,9 @@ public class Question7 {
 		nickels = exchange / 5; //5 cent
 		exchange = exchange % 5; 
 
+		pennies = exchange;
 
-		System.out.println("Your change is " + quarters + " Quarters, :" + dimes + " Dimes, " + nickels + " nickles");
+		System.out.println("Your change is " + quarters + " Quarters, :" + dimes + " Dimes, " + nickels + " nickles, "+ pennies + " Pennies");
+		input.close();
 	}
 }
