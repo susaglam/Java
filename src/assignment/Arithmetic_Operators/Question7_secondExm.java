@@ -25,7 +25,6 @@ public class Question7_secondExm {
 
 		System.out.print("Please Enter the price of the(from 25 cents to a dollar, in 5-cent increments): ");
 		amount = input.nextInt();
-
 		exchange = 100 - amount;
 
 		System.out.println("Amout in Return:" + exchange + "cents");
