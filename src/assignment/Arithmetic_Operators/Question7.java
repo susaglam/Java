@@ -20,20 +20,20 @@ public class Question7 {
 		 * Your change is 0 quarters, 0 dimes, and 1 nickles
 		 */
 
-		int  quarters, dimes, nickels, exchange;
+		int  quarters, dimes, nickels, change;
+		//  quarters is 25 cent, dimes is 10 cent, nickels is 5 cent, exchange is;
+		change = 100 - 95;// 95 cents used change = 5 cent
 
-		exchange = 100 - 95;
+		System.out.println("Amount in Return:" + change + "cents");
 
-		System.out.println("Amount in Return:" + exchange + "cents");
+		quarters = change / 25;// 5/25 =0.2 but it is integer = 0 Quarters
+		change = change % 25;// 5
 
-		quarters = exchange / 25;// 25 cent
-		exchange = exchange % 25;
+		dimes = change / 10; // 5/10 = 0.5 but it is integer = 0 dimes
+		change = change % 10; // 5
 
-		dimes = exchange / 10; //10 cent
-		exchange = exchange % 10;
-
-		nickels = exchange / 5; //5 cent
-		exchange = exchange % 5; 
+		nickels = change / 5; // 5/5 = 1 nickels
+		change = change % 5;//  0
 
 		System.out.println("Your change is " + quarters + " Quarters, :" + dimes + " Dimes, " + nickels + " nickles");
 	}
