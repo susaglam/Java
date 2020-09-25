@@ -28,9 +28,12 @@ public class Question5 {
 		
 		// one hour is 3600 seconds. We divide the total second to 3600 to find 1 hour.
 		hour = inputSecond/3600;  // 1 hour
-		//We will calculate the remainder in minutes and seconds below.
+		
 		// one minute is 60 seconds
+		//We divide the total second by 60 to find the minute. 
+		//We do not include less than 60 remaining time.
 		minute =(inputSecond/60)%60; // 1 minute
+		
 		// We calculate the remaining seconds less than 1 minute
 		second = inputSecond%60 ;// 35 seconds
 
