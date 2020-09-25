@@ -25,11 +25,14 @@ public class Question5 {
 
 		int hour, minute, second, inputSecond;
 		inputSecond = 3695;
-
-		minute =(inputSecond/60)%60;
-		hour = inputSecond/3600;
-
-		second = inputSecond%60 ;
+		
+		// one hour is 3600 seconds. We divide the total second to 3600 to find 1 hour.
+		hour = inputSecond/3600;  // 1 hour
+		//We will calculate the remainder in minutes and seconds below.
+		// one minute is 60 seconds
+		minute =(inputSecond/60)%60; // 1 minute
+		// We calculate the remaining seconds less than 1 minute
+		second = inputSecond%60 ;// 35 seconds
 
 		System.out.println(hour + " hour,  " + minute + " minutes , and " + second + " seconds");
 
