@@ -35,7 +35,6 @@ public class Question7 {
 		nickels = exchange / 5; //5 cent
 		exchange = exchange % 5; 
 
-
 		System.out.println("Your change is " + quarters + " Quarters, :" + dimes + " Dimes, " + nickels + " nickles");
 	}
 }
