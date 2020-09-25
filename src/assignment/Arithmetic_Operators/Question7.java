@@ -30,14 +30,14 @@ public class Question7 {
 
 		System.out.println("Amout in Return:" + exchange + "cents");
 
-		quarters = exchange / 25;
+		quarters = exchange / 25;// 25 cent
 		exchange = exchange % 25;
 
-		dimes = exchange / 10;
+		dimes = exchange / 10; //10 cent
 		exchange = exchange % 10;
 
-		nickels = exchange / 5;
-		exchange = exchange % 5;
+		nickels = exchange / 5; //5 cent
+		exchange = exchange % 5; 
 
 		pennies = exchange;
 
