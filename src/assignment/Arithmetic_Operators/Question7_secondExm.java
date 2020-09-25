@@ -21,24 +21,24 @@ public class Question7_secondExm {
 		 */
 
 		Scanner input = new Scanner(System.in);
-		int amount, quarters, dimes, nickels, pennies, exchange;
+		int amount, quarters, dimes, nickels, pennies, change;
 
 		System.out.print("Please Enter the price of the(from 25 cents to a dollar, in 5-cent increments): ");
 		amount = input.nextInt();
-		exchange = 100 - amount;
+		change = 100 - amount;
 
-		System.out.println("Amout in Return:" + exchange + "cents");
+		System.out.println("Amout in Return:" + change + "cents");
 
-		quarters = exchange / 25;// 25 cent
-		exchange = exchange % 25;
+		quarters = change / 25;// 25 cent
+		change = change % 25;
 
-		dimes = exchange / 10; //10 cent
-		exchange = exchange % 10;
+		dimes = change / 10; //10 cent
+		change = change % 10;
 
-		nickels = exchange / 5; //5 cent
-		exchange = exchange % 5; 
+		nickels = change / 5; //5 cent
+		change = change % 5; 
 
-		pennies = exchange;
+		pennies = change;
 
 		System.out.println("Your change is " + quarters + " Quarters, :" + dimes + " Dimes, " + nickels + " nickles, "+ pennies + " Pennies");
 		input.close();
