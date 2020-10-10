@@ -1,7 +1,7 @@
 package classes;
 
 public class TypeCasting {
-	public static void main(final String[] args) {
+	public static void main(String[] args) {
 
 		/*
 		 * Type casting is when you assign a value of one primitive data type to another type.

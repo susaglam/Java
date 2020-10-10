@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class if_Else_Statement_Nested_user_login_check_user_and_password {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		String adminuser = "admin";
 		String adminpass = "1234";
@@ -74,6 +73,7 @@ public class if_Else_Statement_Nested_user_login_check_user_and_password {
 			System.out.println("Please check your user credentials. ");
 
 		}
+		input.close();
 
 	}
 

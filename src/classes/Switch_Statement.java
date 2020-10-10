@@ -1,12 +1,10 @@
 package classes;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Switch_Statement {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner swt = new Scanner(System.in);
 		Scanner input = new Scanner(System.in);

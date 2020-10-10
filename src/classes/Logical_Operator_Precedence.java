@@ -3,8 +3,7 @@ package classes;
 public class Logical_Operator_Precedence {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 		int applesCount = 20;
 		int orangesCount = 30;
 		int pearsCount = 30;

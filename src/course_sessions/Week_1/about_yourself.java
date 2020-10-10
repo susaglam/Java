@@ -3,7 +3,6 @@ package course_sessions.Week_1;
 public class about_yourself {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/*
 		 * add main method store your name , your age , your city , house hold count
 		 * into a variable

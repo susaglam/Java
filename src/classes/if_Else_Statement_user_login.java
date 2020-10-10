@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class if_Else_Statement_user_login {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		String adminuser="admin";
 		String adminpass="1234";
@@ -38,6 +37,7 @@ public class if_Else_Statement_user_login {
 			System.out.print("Please check admin username or password. ");
 
 		}
+		input.close();
 		
 	}
 

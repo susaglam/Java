@@ -3,7 +3,6 @@ package classes;
 public class if_Else_Statements {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int list = 60;
 		if (list >= 70) {
