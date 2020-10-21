@@ -1,6 +1,4 @@
 package assignments.Lab2;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 /*Question-1

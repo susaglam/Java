@@ -1,5 +1,4 @@
 package assignments.Lab2;
-
 import java.util.Scanner;
 
 /*
