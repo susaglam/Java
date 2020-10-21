@@ -1,6 +1,5 @@
 package assignments.Lab1;
 
-
 	/*
 	Question-4
 	The deers in VA spend most of the day playing.

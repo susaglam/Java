@@ -1,7 +1,4 @@
 package assignments.Lab1;
-
-
-
 	/*
 	Question-6
 	When chipmonks get together for a party, they like to have cigars.
