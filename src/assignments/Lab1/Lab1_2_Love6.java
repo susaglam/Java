@@ -1,6 +1,6 @@
-package Lessons.day14_methods_Part2;
+package assignments.Lab1;
 
-public class Lab2_Love6 {
+public class Lab1_2_Love6 {
 
     /*The number 6 is a truly great number. Write a method that accepts num1 and num2,
      * prints true if either one is 6. Or if their sum or difference is 6.
