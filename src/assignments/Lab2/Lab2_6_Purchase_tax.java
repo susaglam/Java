@@ -35,6 +35,7 @@ public class Lab2_6_Purchase_tax {
 
         totalWithTax = amountOfPurchase + taxAmount;
 
+        System.out.println("\n______________________________________________");
         System.out.println("|Your amount of purchase is \t\t\t$" + amountOfPurchase + "|");
         System.out.println("|Your County Tax amount is \t\t\t\t$" + countyTaxTotal+ " |");
         System.out.println("|Your State Tax amount is \t\t\t\t$" + stateTaxTotal + " |");
