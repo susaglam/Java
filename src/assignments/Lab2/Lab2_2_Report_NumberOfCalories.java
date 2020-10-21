@@ -15,15 +15,15 @@ and then reports the number of total calories consumed.
 public class Lab2_2_Report_NumberOfCalories {
     public static void main (String[] args) {
 
-        // int oneBagOfCookies =40;
-        // int totalServing = 10;
-        // int oneServing = 40/10;
-        // int oneServingCalories = 300 ;
+        // final int oneBagOfCookies =40;
+        // final int totalServing = 10;
+        // final int oneServing = 40/10;
+        // final int oneServingCalories = 300 ;
 
         // Find One Cookies Calories
         // (oneServingCalories = 300) /(oneBagOfCookies = 40/ totalServing = 10)
 
-        int oneCookiesCalories = 300 / (40 / 10); // 75 calories
+        final int oneCookiesCalories = 300 / (40 / 10); // 75 calories
         int eatenTotalCookies, eatenTotalCalories;
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter your eat cookies: ");

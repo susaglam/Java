@@ -14,19 +14,20 @@ public class Lab2_4_Display_PercentageOf_MalesAndFemales {
     public static void main (String[] args) {
         int numberOfMales = 0, numberOfFemales = 0, nextNumber = 0, totalPerson;
         double percentageOfMales, percentageOfFemales;
+
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter number of males: ");
         numberOfMales = scan.nextInt();
+
         System.out.print("Enter number of females: ");
         numberOfFemales = scan.nextInt();
+
         totalPerson = numberOfFemales + numberOfMales;
-        percentageOfFemales = ((double)numberOfFemales/(double)totalPerson) / 100;
-        percentageOfMales = ((double)numberOfMales/(double)totalPerson) / 100;
+        percentageOfFemales = ((double)numberOfFemales/(double)totalPerson) * 100;
+        percentageOfMales = ((double)numberOfMales/(double)totalPerson) * 100;
 
-
-
-        System.out.print("Eaten total calories  : " + percentageOfMales);
-        System.out.print("Eaten total calories  : " + percentageOfMales);
+        System.out.println("Percentage of Males  : %" + percentageOfMales);
+        System.out.println("Percentage of Females  : %" + percentageOfFemales);
         scan.close();
     }
 }
