@@ -2,8 +2,10 @@ package assignments.Lab1;
 
 public class Lab1_2_Love6 {
 
-    /*The number 6 is a truly great number. Write a method that accepts num1 and num2,
-     * prints true if either one is 6. Or if their sum or difference is 6.
+    /*
+    Question-2
+    The number 6 is a truly great number. Write a method that accepts num1 and num2,
+    prints true if either one is 6. Or if their sum or difference is 6.
      */
 
     public static void main (String[] args) {
