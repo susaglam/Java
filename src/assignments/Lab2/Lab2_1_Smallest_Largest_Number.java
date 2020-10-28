@@ -1,4 +1,5 @@
 package assignments.Lab2;
+
 import java.util.Scanner;
 
 /*Question-1
@@ -9,9 +10,11 @@ import java.util.Scanner;
 */
 public class Lab2_1_Smallest_Largest_Number {
     public static int max = Integer.MIN_VALUE;  // Initialize a max with minimum value
+    //Integer.MIN_VALUE = -2147483648
     public static int min = Integer.MAX_VALUE;  // Initialize a min with maximum value
-    public  static void minMaxNumber(int number)
-    {
+
+    // Integer.MAX_VALUE = 2147483647
+    public static void minMaxNumber (int number) {
         if (number > max) {
             max = number;
         }
@@ -20,6 +23,7 @@ public class Lab2_1_Smallest_Largest_Number {
             min = number;
         }
     }
+
     public static void main (String[] args) {
         int number;
         int nextNumber;
@@ -34,7 +38,7 @@ public class Lab2_1_Smallest_Largest_Number {
         do {
             System.out.print("Do you want to enter another number : 0-NO   1-YES ");
             nextNumber = scan.nextInt();
-            if (nextNumber!=1)
+            if (nextNumber != 1)
                 break;
             System.out.print("Enter your next number: ");
             number = scan.nextInt();
@@ -46,7 +50,4 @@ public class Lab2_1_Smallest_Largest_Number {
         System.out.println("The Smallest number: " + min);
         scan.close();
     }
-
-
-
 }
