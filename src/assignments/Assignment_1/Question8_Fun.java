@@ -1,6 +1,6 @@
-package assignments.Assignment_2;
+package assignments.Assignment_1;
 
-public class questoin8_Fun {
+public class Question8_Fun {
 
 	public static void main(String[] args) {
 		// Your project Encoding must be UT-8

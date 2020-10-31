@@ -1,33 +1,30 @@
 package assignments.repl_it.Repl_210;
 
-public class Utils{
-    public static String reverseLetters(String word){
-        //TODO
-        char[] str = word.toCharArray();
+public class Utils {
+    public static String reverseLetters (String word) {
+        char[] chars = word.toCharArray();
         // Initialize left and right pointers
-        int r = str.length - 1, l = 0;
+        int right = chars.length - 1, left = 0;
 
         // Traverse string from both ends until
-        // 'l' and 'r'
-        while (l < r)
-        {
+        // 'left' and 'right'
+        while (left < right) {
             // Ignore special characters
-            if (!Character.isAlphabetic(str[l]))
-                l++;
-            else if(!Character.isAlphabetic(str[r]))
-                r--;
+            if (!Character.isAlphabetic(chars[left]))
+                left++;
+            else if (!Character.isAlphabetic(chars[right]))
+                right--;
 
-                // Both str[l] and str[r] are not spacial
-            else
-            {
-                char tmp = str[l];
-                str[l] = str[r];
-                str[r] = tmp;
-                l++;
-                r--;
+                // Both str[left] and str[right] are not spacial
+            else {
+                char temporary = chars[left];
+                chars[left] = chars[right];
+                chars[right] = temporary;
+                left++;
+                right--;
             }
         }
-        String revStr = new String(str);
-        return revStr;
+        String reverseString = new String(chars);
+        return reverseString;
     }
 }

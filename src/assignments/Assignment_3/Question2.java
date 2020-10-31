@@ -1,17 +1,20 @@
 package assignments.Assignment_3;
 
 public class Question2 {
-
 	public static void main(String[] args) {
 		/*
 		 * Question-2
-		 *
-		 * Declare and initialize a String variable called message, and write a
-		 * statement to display its value to console.
+		 * 
+		 * Write a program - > Declare variables for your name and birth year, and the
+		 * program will display:
+		 * 
+		 * " Hello, Ozzy! Based on your input, your age is 15 :) "
 		 */
-		
-		String name="Sukru SAGLAM";
-		
-		System.out.println(name);
+
+		String name = "Sukru SAGLAM"; // my name
+		int birthYear = 1978; // birth year
+
+		System.out.println("Hello, " + name + " Based on your input, your age is " + birthYear + " :)");
+
 	}
 }

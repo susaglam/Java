@@ -1,4 +1,4 @@
-package assignments.Assignment_3;
+package assignments.Assignment_2;
 
 public class Question10 {
 

@@ -2,7 +2,7 @@ package assignments.repl_it;
 
 import java.util.Scanner;
 
-public class rep_21_forLoops {
+public class repl_21_forLoops {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         System.out.print("In:");

@@ -3,8 +3,7 @@ package a_review.week6;
 public class UsingComputerMethods {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 		Computer c1 = new Computer() ; 
 		c1.brand = "Apple" ; 
 		c1.price = 1300 ; 

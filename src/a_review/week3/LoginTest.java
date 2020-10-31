@@ -3,8 +3,6 @@ package a_review.week3;
 public class LoginTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 //		String username  = "abcd" ;
 //		String password  = "secret"; 
 		

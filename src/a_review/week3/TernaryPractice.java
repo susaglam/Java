@@ -3,9 +3,7 @@ package a_review.week3;
 public class TernaryPractice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		// anything that ternary operator can do, if else statement can do it !!! 
+		// anything that ternary operator can do, if else statement can do it !!!
 		// THE ONLY TIME YOU CAN USE TERNARY OPERATOR IS : 
 			// WHEN YOU WANT TO ASSIGN VARIABLE VALUE ACCORDING TO CERTAIN CONDITION!!!
 		

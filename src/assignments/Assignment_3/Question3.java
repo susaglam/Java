@@ -1,17 +1,22 @@
 package assignments.Assignment_3;
 
 public class Question3 {
+	public static void main(String[] args) {
+		/*
+		 * Question-3
+		 * 
+		 * Write a Java program that displays the area of a rectangle with a width of
+		 * 4.5 and a height of 7.9 using the following formula:
+		 * 
+		 * area = width * height
+		 */
 
-    public static void main(String[] args) {
-    /*
-     * Declare two variables. One of them integer called num and the other one is double called cost. 
-     * Print both values (num first, then cost), separated by a space on a single line.
-     */
-    	
-    	int num = 6;	
+		double width = 4.5; // width
+		double height = 7.9; //height
 		
-		double cost=100.55;
-    	
-    System.out.println("Num: "+num+" Cost: "+cost);
-    }
+		double area = width * height;
+
+		System.out.println("The area of a rectangle is : " + area);
+
+	}
 }

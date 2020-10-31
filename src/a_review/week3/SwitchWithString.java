@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class SwitchWithString {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 //		String equality
 		
 //		String str1 = "Adam" ; 

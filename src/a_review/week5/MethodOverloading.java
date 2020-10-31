@@ -3,7 +3,6 @@ package a_review.week5;
 public class MethodOverloading {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// Method overloading , reusing the name of the method with different parameter list
 		// name + parameter list =  method signature 
 		// valid overloading : same name different parameters list (count or data type)

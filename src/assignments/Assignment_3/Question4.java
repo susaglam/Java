@@ -1,20 +1,36 @@
 package assignments.Assignment_3;
 
 public class Question4 {
-
 	public static void main(String[] args) {
 		/*
-		 * Assume that word is a String variable and already has a value. Write a
-		 * statement to display the message "Today's Word-Of-The-Day is: " followed by
-		 * the value of the word. The message and the value of word should appear
-		 * together, on a single line.
+		 * Question-4
 		 * 
-		 * Ex:
+		 * Declare 2 variables (Num1, Num2)
 		 * 
-		 * Today's Word-Of-The-Day is: Java
+		 * Swap values between Num1 and Num2
+		 * 
+		 * Display new values of Num1 and Num2
+		 * 
+		 * Sample output:
+		 * 
+		 * n1=10 n2=20
+		 * 
+		 * ----------
+		 * 
+		 * n1=20 n2=10
 		 */
-		String word="Java";
+
+		int n1 = 10; // num1
+		int n2 = 20; // num2
+		int t;
+
+		System.out.println("n1= " + n1 + "  n2= " + n2);
+
+		t = n2;// temp
+		n2 = n1;
+		n1=t;
 		
-		System.out.println("Today's Word-Of-The-Day is: " + word);
+		System.out.println("n1= " + n1 + "  n2= " + n2);
+
 	}
 }

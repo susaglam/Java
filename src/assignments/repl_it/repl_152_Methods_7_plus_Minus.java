@@ -2,7 +2,7 @@ package assignments.repl_it;
 
 import java.util.Scanner;
 
-public class repl152Methods7plusMinus {
+public class repl_152_Methods_7_plus_Minus {
     /*Create a method called plus_minus that gets an array of ints (int[]),
     it outputs how many negative , positive and zero numbers are in the array.
         for example:

@@ -4,14 +4,23 @@ public class Question1 {
 
 	public static void main(String[] args) {
 		/*
-		 * Question-1 Declare and initialize an integer variable called count, and write
-		 * a statement that displays the value of count on the console
+		 * Question-1
+		 * 
+		 * Write a program to convert gallons into Liters and display it.
+		 * 
+		 * Sample output:
+		 * 
+		 * 15 gallon is 56.7812 liter
 		 */
 
-		int number1;
-		number1 = 14;
+		double gallons; // gallons
+		double liters; // liters
 
-		System.out.println(number1);
-		
+		gallons = 15; // gallons
+
+		liters = gallons * 3.7854; // conversion to liters
+
+		System.out.println(gallons + " gallons is " + liters + " liters.");
+
 	}
 }

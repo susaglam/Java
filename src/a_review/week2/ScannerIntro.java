@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class ScannerIntro {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 		// I want to ask this number from user 
 		// when program run 
 		// Scanner can be used to capture console input 

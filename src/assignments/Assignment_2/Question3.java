@@ -2,11 +2,16 @@ package assignments.Assignment_2;
 
 public class Question3 {
 
-	public static void main(String[] args) {
-		// write your code here
-		System.out.println("Multiply comment");
-		/*
-		 * 1 2 3 4 5 6 7 8 9 10
-		 */
-	}
+    public static void main(String[] args) {
+    /*
+     * Declare two variables. One of them integer called num and the other one is double called cost. 
+     * Print both values (num first, then cost), separated by a space on a single line.
+     */
+    	
+    	int num = 6;	
+		
+		double cost=100.55;
+    	
+    System.out.println("Num: "+num+" Cost: "+cost);
+    }
 }

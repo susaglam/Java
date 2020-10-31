@@ -9,6 +9,4 @@ public class repl_169_MethodsWithReturn7_3locks {
             return false;
 
     }
-
-
 }

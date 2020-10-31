@@ -1,8 +1,8 @@
-package a_review.week3;
+package assignments.Assignment_4;
 
 import java.util.Scanner;
 
-public class BMICalculator {
+public class Question_1_BMICalculator {
 
 	public static void main(String[] args) {
 		/**
@@ -39,7 +39,7 @@ public class BMICalculator {
 			 
 		 }else if ( bmi>= 25 && bmi < 30.0) {
 			 
-			 System.out.println("YOU ARE overwight");
+			 System.out.println("YOU ARE overweight");
 			 
 		 }else if(bmi >=30 ) {
 			 
@@ -48,7 +48,7 @@ public class BMICalculator {
 		 }
 		 
 		 
-		 
+		 scan.close();
 
 	}
 

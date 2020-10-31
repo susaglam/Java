@@ -3,8 +3,7 @@ package a_review.week2;
 public class Grader {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 		System.out.println("Welcome to the Grading system");
 		
 //		int score = 50 ; 
