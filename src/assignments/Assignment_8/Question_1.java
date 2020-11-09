@@ -14,7 +14,6 @@ public class Question_1 {
         It asks the user to input two numbers, then it will add them and print the result.
         Create a scanner within the plus method.
         Example:
-
         enter first number :  1
         enter second number:  2
         result: 3

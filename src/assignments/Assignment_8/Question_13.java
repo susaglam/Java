@@ -28,7 +28,6 @@ public class Question_13 {
         bill = units * 0.60;
         above 50 is:
         bill = units * 0.90;
-
         above 100 the calculation is like above 50 but with a 50 as fine
 
         and above 150 it is the same as above 50 (units *0.90) but with a 100 fine added to the price.

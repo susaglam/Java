@@ -6,7 +6,6 @@ public class Question_9 {
     public static void main (String[] args) {
         /*
         Question-9
-
         Create a method called max. It gets two ints, x and max.
         x is the test case, max is what we test against.
 
@@ -14,7 +13,6 @@ public class Question_9 {
         in any other case return x.
 
         for example:
-
         max(1,10)
         returns 1
 

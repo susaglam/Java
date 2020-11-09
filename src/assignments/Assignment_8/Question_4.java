@@ -4,7 +4,6 @@ public class Question_4 {
     public static void main (String[] args) {
         /*
         Question-4
-
         Create a method printHollowRect that prints a 5 on 5 hollow rectangle:
         ********
         *      *

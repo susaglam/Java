@@ -6,7 +6,6 @@ public class Question_11 {
     public static void main (String[] args) {
         /*
         Question-11
-
         c_profits gets the buyPrice(int) and sellPrice(int) and determines if there was a profit or loss.
         it returns a string value that can be "profit","loss","no loss"
 
@@ -20,7 +19,6 @@ public class Question_11 {
         c_profis(100,100)
         returns : "no loss"
          */
-
         Scanner scan = new Scanner(System.in);
         int buyPrice = scan.nextInt();
         int sellPrice = scan.nextInt();

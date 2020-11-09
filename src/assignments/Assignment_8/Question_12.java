@@ -12,7 +12,6 @@ public class Question_12 {
         the hamletQuote method only returns true if one of or both of the boolean parameters is true.
 
         example:
-
         hamletQuote(true, false)
         returns true
 

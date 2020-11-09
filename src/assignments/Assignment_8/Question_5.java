@@ -6,7 +6,6 @@ public class Question_5 {
     public static void main (String[] args) {
         /*
         Question-5
-
         Create a method called sign.
         It gets a number and tells you
         if its positive, negative or zero.

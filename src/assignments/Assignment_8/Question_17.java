@@ -34,7 +34,6 @@ public class Question_17 {
 
         or put them in their own variables, everything to make it easy to read.
         */
-
         System.out.println(getThunderBlazz(true, false, 1, 2, 3));// returns true
         System.out.println(getThunderBlazz(false, false, 1, 2, 3));// returns true
         System.out.println(getThunderBlazz(false, false, 1, 5, 3));// returns false

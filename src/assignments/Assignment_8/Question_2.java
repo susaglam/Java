@@ -12,7 +12,6 @@ public class Question_2 {
         value of that number:
 
         Example:
-
         input: 5
         output: 125
          */

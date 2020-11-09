@@ -12,7 +12,6 @@ public class Question_7 {
         Example:
         input: 1001
         output: true
-
         Example:
         input: 1234
         output: false

@@ -20,7 +20,6 @@ public class Question_16 {
         simpleRoomBook(true,7,2,2018)
         return false
         */
-
         System.out.println(simpleRoomBook(false,2,1,2018));//false
         System.out.println(simpleRoomBook(true,2,1,2018));//true
         System.out.println(simpleRoomBook(true,7,2,2018));//false

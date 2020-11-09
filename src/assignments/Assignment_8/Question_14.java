@@ -17,7 +17,6 @@ public class Question_14 {
         a=true;
         b=false;
         c=true;
-
         System.out.println(truthTable(a,b,c));
     }
 
