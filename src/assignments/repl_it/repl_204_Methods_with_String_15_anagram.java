@@ -26,7 +26,7 @@ public class repl_204_Methods_with_String_15_anagram {
             return false;
         }
         for (int i = 0; i < one.length(); i++) {
-            two = two.replaceFirst("" + one.charAt(i), "");
+            two = two.toLowerCase().replaceFirst("" + one.charAt(i), "");
         }
         return two.isEmpty();
     }

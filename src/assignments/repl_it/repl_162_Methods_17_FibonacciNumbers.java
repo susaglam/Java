@@ -16,7 +16,7 @@ public class repl_162_Methods_17_FibonacciNumbers {
     public static void fib(int num) {
         int previousValue = 0, currentValue = 1, nextValue = 0;
 
-        for (int i = 1; i < num; i++) {
+        for (int i = 2; i < num; i++) {
             nextValue = currentValue + previousValue;
             previousValue = currentValue;
             currentValue = nextValue;
