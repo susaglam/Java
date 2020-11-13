@@ -44,8 +44,8 @@ public class repl_170_Arrays_Zombie_Attack_2 {
         //TODO. Write you code below this line.
         int[] inhabitantsTemp = new int[8];
         System.arraycopy(inhabitants, 0, inhabitantsTemp, 0, 8);
-        for (int i = 0; i < 10; i++) {
-            boolean flag = true;
+        for (int i = 0; i < Integer.MAX_VALUE; i++) {
+            boolean flag = false;
             if (i == 0) {
                 System.out.println("Day " + i + " " + Arrays.toString(inhabitants));
             } else {
