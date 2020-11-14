@@ -58,34 +58,19 @@ package assignments.repl_it;
 import java.util.Arrays;
 
 public class repl_187_Methods_with_String_10_lame_db {
-
-
     public static void main (String[] args) {
-
-        System.out.print(
-                lameDb("1etsy#2wooden#3spoon", "add", "4", "aaa") + "\n"
-        );
-
-        System.out.print(
-                lameDb("1tst#2bla#3foo", "edit", "2", "bbb") + "\n"
-        );
-
-        System.out.print(
-                lameDb("1tst#2bla#3foo", "delete", "1", "") + "\n"
-        );
-
-        System.out.print(
-                lameDb("1tst#2bla#3foo", "none", "1", "") + "\n"
-        );
-
+        System.out.println(lameDb("1etsy#2wooden#3spoon", "add", "4", "aaa"));
+        System.out.println(lameDb("1tst#2bla#3foo", "edit", "2", "bbb"));
+        System.out.println(lameDb("1tst#2bla#3foo", "delete", "1", ""));
+        System.out.println(lameDb("1tst#2bla#3foo", "none", "1", ""));
     }
 
     public static String lameDb (String db, String op, String id, String data) {
         String result = "";
+        String[] dbPart = db.split("#");
         if (op.equals("add")) {
             result = db + "#" + id + data;
         } else if (op.equals("edit")) {
-            String[] dbPart = db.split("#");
             dbPart[Integer.parseInt(id) - 1] = id + data;
             for (int i = 0; i < dbPart.length; i++) {
                 if (i > 0) {
@@ -95,10 +80,9 @@ public class repl_187_Methods_with_String_10_lame_db {
                 }
             }
         } else if (op.equals("delete")) {
-            String[] dbPart = db.split("#");
-            dbPart[Integer.parseInt(id)-1] = null;
+            dbPart[Integer.parseInt(id) - 1] = null;
             for (int i = 0; i < dbPart.length; i++) {
-                if (Integer.parseInt(id)-1 != i) {
+                if (Integer.parseInt(id) - 1 != i) {
                     if (i > 0) {
                         result += "#" + dbPart[i];
                     } else {
