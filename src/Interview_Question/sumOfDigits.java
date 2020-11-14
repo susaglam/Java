@@ -13,6 +13,7 @@ public class sumOfDigits {
 
         String a = "aab545bcd34dfgfd";
         System.out.println(getSumOfdigit(a));
+        a.charAt(a.length());
     }
 
     private static int getSumOfdigit (String str) {
