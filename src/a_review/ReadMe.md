@@ -7,3 +7,5 @@
 * [Week 5 ](/src/a_review/week5/ReadMe.md)
 * [Week 6 ](/src/a_review/week6/ReadMe.md)
 * [Week 7 ](/src/a_review/week7/ReadMe.md)
+* [Week 8 ](/src/a_review/week8/ReadMe.md)
+* [Week 9 ](/src/a_review/week9/ReadMe.md)
