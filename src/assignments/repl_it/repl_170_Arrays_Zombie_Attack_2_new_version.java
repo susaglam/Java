@@ -15,7 +15,7 @@ its population if it is adjacent(right or left) to a city with zero people
 until all cities have no humans left.
 
  Make updates to each element in the array And print the array like below for each day:
-
+3 6 0 4 3 2 7 0
 Day 0 [3, 6, 0, 4, 3, 2, 7, 0]
 Day 1 [3, 3, 0, 2, 3, 2, 3, 0]
 Day 2 [3, 1, 0, 1, 3, 2, 1, 0]
@@ -34,21 +34,21 @@ Code:
 System.out.println(Arrays.toString(inhabitants)));
  */
 
-public class repl_170_Arrays_Zombie_Attack_2 {
+public class repl_170_Arrays_Zombie_Attack_2_new_version {
     public static void main (String[] args) {
         Scanner input = new Scanner(System.in);
         int[] inhabitants = new int[8];
         for (int i = 0; i < inhabitants.length; i++) {
             inhabitants[i] = input.nextInt();
         }
+        input.close();
         //TODO. Write you code below this line.
-        // 3 6 0 4 3 2 7 0
         int[] inhabitantsTemp = new int[8];
         System.arraycopy(inhabitants, 0, inhabitantsTemp, 0, 8);
-        for (int i = 0; i < Integer.MAX_VALUE; i++) {
-            boolean flag = false;
-            if (i == 0) {
-                System.out.println("Day " + i + " " + Arrays.toString(inhabitants));
+        int day = 0;
+        while (!Arrays.equals(inhabitants, new int[8])) {
+            if (day == 0) {
+                System.out.println("Day " + day + " " + Arrays.toString(inhabitants));
             } else {
                 for (int city = 0; city < inhabitantsTemp.length; city++) {
                     if (city == 0) {
@@ -67,22 +67,15 @@ public class repl_170_Arrays_Zombie_Attack_2 {
                         }
                     }
                 }
-                System.out.println("Day " + i + " " + Arrays.toString(inhabitants));
+                System.out.println("Day " + day + " " + Arrays.toString(inhabitants));
             }
 
-            for (int j = 0; j < inhabitants.length; j++) {
-                if (inhabitants[j] != 0) {
-                    flag = false;
-                    break;
-                } else {
-                    flag = true;
-                }
-            }
-            if (flag) {
+            if (Arrays.equals(inhabitants, new int[8])) {
                 System.out.println("---- EXTINCT ----");
                 break;
             }
             System.arraycopy(inhabitants, 0, inhabitantsTemp, 0, 8);
+            day++;
         }
     }
 }

@@ -5,24 +5,24 @@ import java.util.Arrays;
 public class MultiDimentionalArrays {
     public static void main (String[] args) {
         //How to create multi-dimensional array
-        int ma[][] = new int[3][2];
+        int mda[][] = new int[3][2];
         //How to print multi dimensional array
-        System.out.println(Arrays.deepToString(ma));// [ [0, 0], [0, 0], [0, 0] ]
+        System.out.println(Arrays.deepToString(mda));// [ [0, 0], [0, 0], [0, 0] ]
         //How to assign values to the elements
-        ma[0][1] = 2;
-        System.out.println(Arrays.deepToString(ma));// [ [0, 2], [0, 0], [0, 0] ]
-        ma[2][0] = 5;
-        System.out.println(Arrays.deepToString(ma));// [ [0, 2], [0, 0], [5, 0] ]
-        ma[0][0] = 1;
-        System.out.println(Arrays.deepToString(ma));// [ [1, 2], [0, 0], [5, 0] ]
-        ma[1][0] = 3;
-        System.out.println(Arrays.deepToString(ma));// [ [1, 2], [3, 0], [5, 0] ]
-        ma[1][1] = 4;
-        System.out.println(Arrays.deepToString(ma));// [ [1, 2], [3, 4], [5, 0] ]
-        ma[2][1] = 6;
-        System.out.println(Arrays.deepToString(ma));// [ [1, 2], [3, 4], [5, 6] ]
-        Arrays.sort(ma, (a, b) -> Integer.compare(a[0], b[0]));
-        System.out.println(Arrays.deepToString(ma));
+        mda[0][1] = 2;
+        System.out.println(Arrays.deepToString(mda));// [ [0, 2], [0, 0], [0, 0] ]
+        mda[2][0] = 5;
+        System.out.println(Arrays.deepToString(mda));// [ [0, 2], [0, 0], [5, 0] ]
+        mda[0][0] = 1;
+        System.out.println(Arrays.deepToString(mda));// [ [1, 2], [0, 0], [5, 0] ]
+        mda[1][0] = 3;
+        System.out.println(Arrays.deepToString(mda));// [ [1, 2], [3, 0], [5, 0] ]
+        mda[1][1] = 4;
+        System.out.println(Arrays.deepToString(mda));// [ [1, 2], [3, 4], [5, 0] ]
+        mda[2][1] = 6;
+        System.out.println(Arrays.deepToString(mda));// [ [1, 2], [3, 4], [5, 6] ]
+        Arrays.sort(mda, (a, b) -> Integer.compare(a[0], b[0]));
+        System.out.println(Arrays.deepToString(mda));
         System.out.println("-----------------------------------------");
 
 

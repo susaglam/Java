@@ -4,11 +4,6 @@ import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- * 
- * @author Sukru SAGLAM
- *
- */
 public class TicTacToe {
 	static Scanner in;
 	static String[] board;

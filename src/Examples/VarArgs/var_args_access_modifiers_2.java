@@ -1,4 +1,4 @@
-package Examples;
+package Examples.VarArgs;
 
 public class var_args_access_modifiers_2 {
     public static void main (String[] args) {

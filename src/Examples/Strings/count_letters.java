@@ -1,4 +1,4 @@
-package Examples;
+package Examples.Strings;
 
 public class count_letters {
     public static void main (String[] args) {
