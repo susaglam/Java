@@ -2,7 +2,7 @@ package Examples.Arrays;
 
 import java.util.Arrays;
 
-public class Arrays_ {
+public class arrays {
     int x = 12;
 
     /*
