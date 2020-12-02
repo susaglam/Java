@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class repl_213_Methods_with_ArrayList_14_remove_instances {
 	public static ArrayList< Integer > removeInst ( ArrayList< Integer > r, Integer n ) {
-        Iterator itr = r.iterator();
+        Iterator<Integer> itr = r.iterator();
         while (itr.hasNext()) {
             int x = (Integer) itr.next();
             if (x == n)

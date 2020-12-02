@@ -13,5 +13,6 @@ public class repl_076_email1 {
         System.out.println("Last name: " + lname.substring(0, 1).toUpperCase() +lname.substring(1));
         System.out.println("Domain: " + mail[1].split("\\.")[0]);
         System.out.println("Top-Level Domain: " + mail[1].split("\\.")[1]);
+        scan.close();
     }
 }

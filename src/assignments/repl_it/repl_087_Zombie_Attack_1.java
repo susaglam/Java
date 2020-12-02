@@ -24,16 +24,17 @@ import java.util.Scanner;
  */
 
 public class repl_087_Zombie_Attack_1 {
-    public static void main (String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int inhabitants = scan.nextInt();
-        for (int day = 0; day <= Integer.MAX_VALUE; day++) {
-            if (inhabitants < 1) {
-                System.out.println("---- EXTINCT ----");
-                break;
-            }
-            System.out.println("Day " + day + " [" + inhabitants + "]");
-            inhabitants = inhabitants / 2;
-        }
-    }
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int inhabitants = scan.nextInt();
+		for (int day = 0; day <= Integer.MAX_VALUE; day++) {
+			if (inhabitants < 1) {
+				System.out.println("---- EXTINCT ----");
+				break;
+			}
+			System.out.println("Day " + day + " [" + inhabitants + "]");
+			inhabitants = inhabitants / 2;
+		}
+		scan.close();
+	}
 }

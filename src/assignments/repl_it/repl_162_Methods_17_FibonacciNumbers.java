@@ -7,20 +7,21 @@ import java.util.Scanner;
 // The first two numbers of the Fibonacci series are 0 and 1.
 
 public class repl_162_Methods_17_FibonacciNumbers {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int num = scan.nextInt();
-        fib(num);
-    }
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int num = scan.nextInt();
+		fib(num);
+		scan.close();
+	}
 
-    public static void fib(int num) {
-        int previousValue = 0, currentValue = 1, nextValue = 0;
+	public static void fib(int num) {
+		int previousValue = 0, currentValue = 1, nextValue = 0;
 
-        for (int i = 2; i < num; i++) {
-            nextValue = currentValue + previousValue;
-            previousValue = currentValue;
-            currentValue = nextValue;
-        }
-        System.out.println(nextValue);
-    }
+		for (int i = 2; i < num; i++) {
+			nextValue = currentValue + previousValue;
+			previousValue = currentValue;
+			currentValue = nextValue;
+		}
+		System.out.println(nextValue);
+	}
 }
