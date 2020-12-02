@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class ArrayListPractice1 {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         ArrayList<Integer> list1 = new ArrayList<>();
         list1.add(10);

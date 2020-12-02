@@ -1,4 +1,4 @@
-package day24_arrays_part1;
+package Lessons.day24_arrays_part1;
 
 public class Array {
 

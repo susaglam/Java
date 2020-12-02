@@ -1,4 +1,4 @@
-package day32_arrayList_part2;
+package Lessons.day32_arrayList_part2;
 
 import java.util.Scanner;
 

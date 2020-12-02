@@ -12,7 +12,7 @@ public class arrays {
     4) Only a) primitive and b) references can be stored in Arrays.
     5) You cannot store strings in Arrays.
     */
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         int a[] = new int[4]; // Creating an array is done with []. [4] I will store 4 pieces of data.
 

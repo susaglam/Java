@@ -12,9 +12,9 @@ public class repl_129_Arrays_Copy_Certain_values {
     public static String[] getWithE (String[] arr) {
         //TODO : YOUR CODE GOES HERE ----------------------
         String str = "";
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i].contains("e")) {
-                str += arr[i] + "#";
+        for (String s : arr) {
+            if (s.contains("e")) {
+                str += s + "#";
             }
         }
         String[] arrStr = str.split("#");
@@ -22,6 +22,8 @@ public class repl_129_Arrays_Copy_Certain_values {
         for (int i = 0; i < arrStr.length; i++) {
             fewValues[i] = arrStr[i];
         }
+
+        //System.arraycopy(arrStr, 0, fewValues, 0, arrStr.length);
         //YOUR CODE ENDS HERE -----------------------
         return fewValues;
     }

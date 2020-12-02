@@ -1,4 +1,4 @@
-package day29_arrays_Lab;
+package Lessons.day29_arrays_Lab;
 
 public class Lab4_Question16 {
 

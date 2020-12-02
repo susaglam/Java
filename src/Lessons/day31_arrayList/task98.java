@@ -1,4 +1,4 @@
-package day31_arrayList;
+package Lessons.day31_arrayList;
 
 public class task98 {
 

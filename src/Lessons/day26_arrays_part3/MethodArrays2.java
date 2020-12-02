@@ -1,4 +1,4 @@
-package day26_arrays_part3;
+package Lessons.day26_arrays_part3;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package day30_wrapperClass;
+package Lessons.day30_wrapperClass;
 
 public class Boxing {
 
