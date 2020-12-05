@@ -16,13 +16,15 @@ public static void main(String[] args) {
 		   we "assigned a value" or we will tell "initialized the variable"
 		*/
 		int age = 23;
+		System.out.println(age);
 		
 		//Create a variable whose name is weight and value is 83
 		int weight = 83;
-		
+		System.out.println(weight);
 		//Create a String variable whose name will be first name and
 		//the value will be your own first name
-		String firstName = "Daulet";
+		String firstName = "Sukru";
+		System.out.println(firstName);
 		
 		//Typing codes short is very important in coding area
 		//	int height = 11;
@@ -31,7 +33,7 @@ public static void main(String[] args) {
 		//	int salary = 14;
 		
 		//instead of typing like that do like the followings
-		int height = 11, length = 12, money = 13, salary = 14;
+		// int height = 11, length = 12, money = 13, salary = 14;
 		
 		/*
 		 Data Types: There are 2 main data types 

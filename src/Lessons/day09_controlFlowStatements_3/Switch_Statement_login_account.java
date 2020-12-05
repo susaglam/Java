@@ -8,9 +8,6 @@ public class Switch_Statement_login_account {
 		Scanner scan = new Scanner(System.in);
 		String item = scan.nextLine();
 
-		// WRITE YOUR CODE HERE
-		String product;
-		double productPrice;
 		int giftCard = 100;
 
 		int remainingCash;
@@ -54,6 +51,6 @@ public class Switch_Statement_login_account {
 		} else {
 			System.out.println("invalid item!");
 		}
-
+		scan.close();
 	}
 }

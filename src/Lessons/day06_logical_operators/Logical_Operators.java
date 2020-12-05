@@ -45,8 +45,8 @@ public class Logical_Operators {
 
 		System.out.println(bool);
 
-		bool = 15 > 7 || 3 > 1;
-		System.out.println(bool);
+//		bool = 15 > 7 || 3 > 1;
+//		System.out.println(bool);
 		
 		char c1 = 'A';
 		char c2 = 65;

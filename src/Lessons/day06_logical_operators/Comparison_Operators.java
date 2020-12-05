@@ -17,8 +17,8 @@ public class Comparison_Operators {
 		// In math we use "=" but in Java we have to use "=="
 		// In Jav "=" means assignment operator. We use "=" when we assign a value to a
 		// variable.
-		System.out.println(5 == 5);// true
-		System.out.println(5 != 5);// false
+		//System.out.println(5 == 5);// true
+		//System.out.println(5 != 5);// false
 
 		char letter1 = 'a';
 		char letter2 = 'b';

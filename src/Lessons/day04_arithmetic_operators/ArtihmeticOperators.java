@@ -12,7 +12,7 @@ public class ArtihmeticOperators {
 		//chairs=chairs+2;
 		
 		int moreChairs=chairs+5;
-		//System.out.println(moreChairs);
+		System.out.println(moreChairs);
 		
 		int tables=130;
 		int total=tables+chairs;

@@ -6,23 +6,22 @@ public class ScannerIntro {
 
 	public static void main(String[] args) {
 
-		// I want to ask this number from user 
-		// when program run 
-		// Scanner can be used to capture console input 
-		
-		Scanner scan = new Scanner(System.in); 
-	
+		// I want to ask this number from user
+		// when program run
+		// Scanner can be used to capture console input
+
+		Scanner scan = new Scanner(System.in);
+
 		System.out.println("ENTER SCORE : ");
-		int score = scan.nextInt() ; // This will wait for user to enter number and assign that number to score ; 
-		
-		
+		int score = scan.nextInt(); // This will wait for user to enter number and assign that number to score ;
+
 		if (score > 70) {
 			System.out.println("PASS");
-		}else {
+		} else {
 			System.out.println("FAIL");
 		}
-		
 
+		scan.close();
 	}
 
 }

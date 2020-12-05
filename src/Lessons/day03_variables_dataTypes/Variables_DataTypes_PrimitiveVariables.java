@@ -5,15 +5,14 @@ public class Variables_DataTypes_PrimitiveVariables {
 	public static void main(String[] args) {
 
 		/*
-		 * Data Type	 Size		Description
-		 *	byte		1 byte		Stores whole numbers from -128 to 127
-		 *	short		2 bytes		Stores whole numbers from -32,768 to 32,767
-		 *	int			4 bytes		Stores whole numbers from -2,147,483,648 to 2,147,483,647
-		 *	long		8 bytes		Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-		 *	float		4 bytes		Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
-		 *	double		8 bytes		Stores fractional numbers. Sufficient for storing 15 decimal digits
-		 *	boolean		1 bit		Stores true or false values
-		 *	char		2 bytes		Stores a single character/letter or ASCII values
+		 * Data Type Size Description byte 1 byte Stores whole numbers from -128 to 127
+		 * short 2 bytes Stores whole numbers from -32,768 to 32,767 int 4 bytes Stores
+		 * whole numbers from -2,147,483,648 to 2,147,483,647 long 8 bytes Stores whole
+		 * numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 float 4
+		 * bytes Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+		 * double 8 bytes Stores fractional numbers. Sufficient for storing 15 decimal
+		 * digits boolean 1 bit Stores true or false values char 2 bytes Stores a single
+		 * character/letter or ASCII values
 		 */
 
 		byte b1 = 25;
@@ -39,6 +38,7 @@ public class Variables_DataTypes_PrimitiveVariables {
 		System.out.println("i1 = " + i1);
 		System.out.println("i2 = " + i2);
 		System.out.println("i3 = " + i3);
+		System.out.println("i4 = " + i4);
 
 		long l1 = 5000; // Suffix L is optional. Literal 5000 is of int type
 		long l2 = -2147483649L; // Suffix L is mandatory, this number is out of int range
@@ -58,6 +58,7 @@ public class Variables_DataTypes_PrimitiveVariables {
 		System.out.println("d1 = " + d1);
 
 		char c1 = 'A';
+		System.out.println(c1);
 		char c2 = 65; // Decimal value corresponding to character 'A'
 		System.out.println(c2);
 
@@ -77,6 +78,7 @@ public class Variables_DataTypes_PrimitiveVariables {
 		System.out.println("My name is " + name);
 
 		String age = "12";
+		System.out.println(age);
 	}
 
 }

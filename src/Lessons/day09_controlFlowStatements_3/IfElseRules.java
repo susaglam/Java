@@ -3,18 +3,21 @@ package Lessons.day09_controlFlowStatements_3;
 public class IfElseRules {
 
 	public static void main(String[] args) {
-		
-		if(false) 
+
+		boolean f =true;
+		if (f) {
 			System.out.println("Hello");
-		else
+		} else {
 			System.out.println("Bye");
-		
+		}
+
 		System.out.println("******************");
-		
-		if(false)
+
+		if (f) {
 			System.out.println("Hello");
-			System.out.println("Running");
-		//else
+		}
+		System.out.println("Running");
+		// else
 
 	}
 

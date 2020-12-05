@@ -4,7 +4,7 @@ public class ComputerFactory {
 
 	public static void main(String[] args) {
 		
-		int x = 10 ; 
+		//int x = 10 ; 
 		
 		// Computer class is blueprint for Computer objects 
 		

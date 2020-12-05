@@ -20,7 +20,7 @@ public class BMICalculator {
 		 Scanner scan = new Scanner(System.in);
 		
 		 System.out.println("Please enter you weight in klogram ");
-		 double weight = scan.nextDouble()  ;   // weight in klogram
+		 double weight = scan.nextDouble()  ;   // weight in kilogram
 		 
 		 System.out.println("Please enter you height in meter ");
 		 double height = scan.nextDouble()  ;      // height in meter
@@ -47,7 +47,7 @@ public class BMICalculator {
 			 
 		 }
 		 
-		 
+		 scan.close();
 		 
 
 	}

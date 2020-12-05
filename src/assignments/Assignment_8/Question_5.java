@@ -23,6 +23,7 @@ public class Question_5 {
         System.out.print("Enter Number : ");
         int num = scan.nextInt();
         sign(num);
+        scan.close();
     }
 
     public static void sign (int num) {

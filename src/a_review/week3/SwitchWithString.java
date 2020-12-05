@@ -78,7 +78,7 @@ public class SwitchWithString {
 		 * }
 		 */
 		
-		
+		 blabla.close();
 
 	}
 

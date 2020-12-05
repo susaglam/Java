@@ -38,17 +38,17 @@ public class Printing_Comments_Concatenation {
 		
 		//You can use comparison operators for all primitive data types.
 		//Everytime, you get boolean results from comparison operators
-		System.out.println(5 == 2+3);//true
+		//System.out.println(5 == 2+3);//true
 		System.out.println(5 < 2+3);//false
 		System.out.println(5 <= 2+3);//true
 		System.out.println(5 > 2+3);//false
 		System.out.println(5 >= 2+3);//true
-		System.out.println(5 != 2+3);//false
+		//System.out.println(5 != 2+3);//false
 		
 		System.out.println('a' == 'A');//false
 		System.out.println('a' > 'A');//true
 		
-		System.out.println(true == true);//true
+		//System.out.println(true == true);//true
 		System.out.println(true == false);//false
 
 		

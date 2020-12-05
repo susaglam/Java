@@ -24,6 +24,7 @@ public class Question_1 {
         System.out.print("Enter second number : ");
         num2 = scan.nextInt();
         plus();
+        scan.close();
     }
 
     public static void plus () {

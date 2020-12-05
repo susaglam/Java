@@ -39,6 +39,8 @@ public class Logical_Operator_Precedence {
 		System.out.println("*************************");
 
 		boolean x = true, z = true;
+		System.out.println(z);
+
 		int y = 20;
 		x = (y != 10) && (z = false);
 

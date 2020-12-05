@@ -50,10 +50,7 @@ public class ShippingCalculator {
 	     }else {
 	    	 System.out.println("SYSTEM CRASH!! YOU CAN ONLY SAY yes or no!!!!!");
 	     }
-	     
-	     
-		 
-
+	     scan.close();
 	}
 
 }

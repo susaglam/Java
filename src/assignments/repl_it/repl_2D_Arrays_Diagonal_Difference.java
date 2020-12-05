@@ -26,7 +26,7 @@ public class repl_2D_Arrays_Diagonal_Difference {
 					ltr += matrix[i][l];
 				}
 			}
-			for (int r = matrix.length - 1; r >= i;r--) {
+			for (int r = matrix.length - 1; r >= i;/*r--*/) {
 				rtl += matrix[i][r - i];
 				break;
 			}

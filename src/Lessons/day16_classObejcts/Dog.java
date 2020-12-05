@@ -4,6 +4,10 @@ public class Dog {
 	
 	//Class is a blueprint and has common properties and methods 
 	
+	public Dog(){
+		
+	}
+	
 	String breed;
 	int age;
 	String color;

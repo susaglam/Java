@@ -7,6 +7,8 @@ public class Computer {
  	double price ; 
  	int screenSize ; 
  	String brand ; 
+ 	public Computer()
+ 	{}
  	
  	// displayInfo
  	public void displayInfo() {

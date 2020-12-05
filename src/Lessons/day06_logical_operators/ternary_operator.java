@@ -133,5 +133,7 @@ public class ternary_operator {
 
 		System.out.println("Market report has been generated.");
 		System.out.println("Your estimate market price is: " + propertyPrice + "$");
+
+		scan.close();
 	}
 }

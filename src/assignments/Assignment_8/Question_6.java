@@ -18,6 +18,7 @@ public class Question_6 {
         System.out.print("enter number : ");
         int num = scan.nextInt();
         next3(num);
+        scan.close();
 
     }
 

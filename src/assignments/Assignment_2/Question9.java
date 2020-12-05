@@ -11,10 +11,10 @@ public class Question9 {
 		 */
 		
 		
-		byte steps =100;
-		short miles =5000;
-		int count =1000_000;
-		long dpopulation =3434455667L;
+//		byte steps =100;
+//		short miles =5000;
+//		int count =1000_000;
+//		long dpopulation =3434455667L;
 		
 		
 		System.out.println("########     ######### #######");

@@ -19,6 +19,7 @@ public class Question_7 {
         Scanner scan = new Scanner(System.in);
         String pal_check = scan.next();
         System.out.println(isPalindrome(pal_check));
+        scan.close();
     }
 
     static boolean isPalindrome (String pal_check) {

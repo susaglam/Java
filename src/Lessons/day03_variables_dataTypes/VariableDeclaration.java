@@ -24,6 +24,10 @@ public class VariableDeclaration {
 		
 		System.out.println(inches);
 		System.out.println(speed);
+		System.out.println(month);
+		System.out.println(salesCommision);
+		System.out.println(distance);
+		System.out.println(feet);
 		
 		
 		int accountnumber  = 20;

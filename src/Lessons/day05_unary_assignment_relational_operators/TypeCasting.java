@@ -22,6 +22,7 @@ public class TypeCasting {
 		 */
 		final byte num01 = 12;
 		final short num02 = num01;
+		System.out.println(num02);
 
 		/* 2.Explicit Narrowing: 
 		 * If you convert large data types  to small ones, its name is Explicit Narrowing. 
@@ -29,22 +30,27 @@ public class TypeCasting {
 		*/ 
 		final int num03 = 14;
 		final byte num04 = (byte) num03;
+		System.out.println(num04);
 
 		// 1)Convert int to double. Auto Widening
 		final int num05 = 19;
 		final double num06 = num05;
+		System.out.println(num06);
 
 		// 2)Convert float to double. Auto Widening
 		final float num07 = 13.5f;
 		final double num08 = num07;
+		System.out.println(num08);
 
 		// 3)Convert double to short. Explicit Narrowing
 		final double num09 = 13.3;
 		final short num10 = (short) num09;
+		System.out.println(num10);
 
 		// 4)Convert int to short. Explicit Narrowing
 		final int num11 = 25;
 		final short num12 = (short) num11;
+		System.out.println(num12);
 
 		// In how many different ways, I can fix the following error?
 		// float num13 = 3.23; //float num13 = 3.23f;

@@ -12,7 +12,7 @@ all the integers from 1 up to the number entered.
 */
 public class Lab2_4_Display_PercentageOf_MalesAndFemales {
     public static void main (String[] args) {
-        int numberOfMales = 0, numberOfFemales = 0, nextNumber = 0, totalPerson;
+        int numberOfMales = 0, numberOfFemales = 0, totalPerson;
         double percentageOfMales, percentageOfFemales;
 
         Scanner scan = new Scanner(System.in);

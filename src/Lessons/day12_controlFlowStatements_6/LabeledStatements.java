@@ -14,6 +14,10 @@ public class LabeledStatements {
 						if(i==4) {
 							break outer;
 						}
+						else
+						{
+							break inner;
+						}
 					}
 			}while(true);
 	}
