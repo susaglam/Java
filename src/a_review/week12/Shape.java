@@ -1,5 +1,7 @@
 package a_review.week12;
 
+import java.text.DecimalFormat;
+
 public class Shape {
 
     public String name;
@@ -9,20 +11,21 @@ public class Shape {
         this.name = name;
     }
 
-    public double calculateArea(){
+    public double calculateArea() {
         return 0;
     }
 
-    public double calculatePerimeter(){
+    public double calculatePerimeter() {
         return 0;
     }
 
     @Override
     public String toString() {
+        DecimalFormat df = new DecimalFormat("0.00");
         return "Shape{" +
                 "name='" + name + '\'' +
-                ", area=" + area +
-                ", perimeter=" + perimeter +
+                ", area=" + df.format(area) +
+                ", perimeter=" + df.format(perimeter) +
                 '}';
     }
 

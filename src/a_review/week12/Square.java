@@ -1,6 +1,6 @@
 package a_review.week12;
 
-public class Square extends Shape{
+public class Square extends Shape {
 
     public double side;
 
@@ -8,7 +8,7 @@ public class Square extends Shape{
         super("Square");
         this.side = side;
         area = calculateArea();
-        perimeter =calculatePerimeter();
+        perimeter = calculatePerimeter();
     }
 
     @Override
