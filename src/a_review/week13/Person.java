@@ -11,12 +11,12 @@ public class Person {
         this.gender = gender;
     }
 
-    public void eat(){
-        System.out.println(name +" is eating");
+    public void eat() {
+        System.out.println(name + " is eating");
     }
 
-    public void sleep(){
-        System.out.println(name +" is sleeping");
+    public void sleep() {
+        System.out.println(name + " is sleeping");
     }
 
     @Override
