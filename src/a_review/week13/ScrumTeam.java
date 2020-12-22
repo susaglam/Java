@@ -45,8 +45,48 @@ public class ScrumTeam {
             } */
     }
 
-}
+    public void terminateTester(String ID) {
+        // testers.removeIf( p -> p.ID.equals(ID) );
 
+        Tester tester = null;
+        for (Tester each : testers) {
+            if (each.ID.equals(ID)) {
+                tester = each;
+            }
+        }
+
+        testers.remove(tester);
+
+    }
+
+    public void terminateDeveloper(String ID) {
+        Developer developer = null;
+
+        for (Developer each : developers) {
+            if (each.ID.equals(ID)) {
+                developer = each;
+            }
+        }
+        developers.remove(developer);
+
+    }
+
+    public void dailyStandUp() {
+        System.out.println(SM + " is doing daily stand up meeting");
+    }
+
+    @Override
+    public String toString() {
+        return "ScrumTeam{" +
+                "BA='" + BA + '\'' +
+                ", PO='" + PO + '\'' +
+                ", SM='" + SM + '\'' +
+                ", testers= " + testers.size() +
+                ", developers= " + developers.size() +
+                '}';
+    }
+
+}
 /*
 ScrumTeam:
 		attributes:
