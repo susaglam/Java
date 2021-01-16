@@ -1,4 +1,4 @@
-package day41_abstract_class;
+package Lessons.day41_abstract_class;
 
 public abstract class Animal {
 	

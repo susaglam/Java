@@ -1,4 +1,4 @@
-package day40_accessmodifiers_final;
+package Lessons.day40_accessmodifiers_final;
 
 public class Car {
 	

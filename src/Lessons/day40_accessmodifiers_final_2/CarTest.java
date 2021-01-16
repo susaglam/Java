@@ -1,8 +1,6 @@
-package day40_accessmodifiers_final_2;
+package Lessons.day40_accessmodifiers_final_2;
 
-import java.util.Scanner;
-
-import day40_accessmodifiers_final.Car;
+import Lessons.day40_accessmodifiers_final.Car;
 
 public class CarTest {
 

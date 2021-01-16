@@ -59,6 +59,7 @@ public class ScrumTeam {
 
     }
 
+
     public void terminateDeveloper(String ID) {
         Developer developer = null;
 

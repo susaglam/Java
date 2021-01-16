@@ -1,4 +1,4 @@
-package day42_interface;
+package Lessons.day42_interface;
 
 public abstract class ElectricTruck extends ElectricCar {
 

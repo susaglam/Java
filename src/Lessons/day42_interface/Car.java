@@ -1,4 +1,4 @@
-package day42_interface;
+package Lessons.day42_interface;
 
 @FunctionalInterface
 public interface Car {
